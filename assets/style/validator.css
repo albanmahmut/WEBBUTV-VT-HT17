@@ -1,9 +1,14 @@
 *{
 	font-size: 1.1em;
     background-color: khaki;
-    margin-left: auto;
+    margin-left: 10px;
 }
 
 .validation__input{
 	margin: 30px;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: darkblue;
 }
