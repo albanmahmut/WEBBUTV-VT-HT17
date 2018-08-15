@@ -6,6 +6,7 @@ body,html{
   background: url(https://st.depositphotos.com/2965415/3845/v/950/depositphotos_38453021-stock-illustration-seamless-sweet-bakery-background.jpg);
 }
 
+
 label{
 margin:0;
 margin:0;
@@ -44,7 +45,7 @@ p{
   width:120px;
   height:60px;
   font-size:20px;
-  background-color: rgb(91,190,229);
+  background-color: ;
   color: white;
   border: none;
   margin: 0;
@@ -208,7 +209,7 @@ float:left;
   text-align: center;
   float: left;
   margin: 0;
-  background-color: rgb(255,255,255);
+    background-color: rgb(255,255,255);
 }
 
 
@@ -294,7 +295,7 @@ figcaption{
   direction: rtl;
   font-size: 40px;
   float:left;
-  color: rgb(90,190,229);
+  color: darkred;
   padding-bottom:1%;
   
 
