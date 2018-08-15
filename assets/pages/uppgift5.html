@@ -1,43 +1,46 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<title>Validator</title>
-	<link rel="stylesheet" type="text/css" href="../style/validator.css">
+    <meta charset="utf-8">
+    <title>Validator</title>
+    <link rel="stylesheet" type="text/css" href="../style/validator.css">
 </head>
+
 <body>
 
 
-<article class="container">
-	<h1 class="container__title">ID Number Control</h1>
-	<form class="validation__form">
-		<hr>
-		<label>Person number: </label><br>
-		<input type="text" id="idNumber" class="validation__input" maxlength="13">
-		<label>
+    <article class="container">
+        <h1 class="container__title">ID Number Control</h1>
+        <form class="validation__form">
+            <hr>
+            <label>Person Number: </label><br>
+            <input type="text" id="idNumber" class="validation__input" maxlength="13">
+            <label>
 			Result: <span class="validation__result" id="idNumberResult"></span>
 		</label><br>
 
-		<hr>
-		<label>Leap Year: </label><br>
-		<input type="text" id="leapYear" class="validation__input">
-		<label>
+            <hr>
+            <label>Leap Year: </label><br>
+            <input type="text" id="leapYear" class="validation__input">
+            <label>
 			Result: <span class="validation__result" id="leapYearResult"></span>
 		</label><br>
-		
-		<hr>
-		<label>Digit Sum: </label><br>
-		<input type="number" id="numberSum" class="validation__input">
-		<label>
+
+            <hr>
+            <label>Digit Sum: </label><br>
+            <input type="number" id="numberSum" class="validation__input">
+            <label>
 			Result: <span class="validation__result" id="numberSumResult"></span>
 		</label>
-	</form>
-</article>
+        </form>
+    </article>
 
-<script type="text/javascript" src="../script/validator.js"></script>
-<script language="javascript">
-addListeners(); 
-</script>
+    <script type="text/javascript" src="../script/validator.js"></script>
+    <script language="javascript">
+        addListeners();
+    </script>
 
 </body>
+
 </html>
