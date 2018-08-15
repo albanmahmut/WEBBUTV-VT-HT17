@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <title>Solsken Kaka</title>
+    <link rel="stylesheet" type="text/css" href="../style/intro.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+
+<body>
+
+    <header class="header">
+        <form action="https://marha784.github.io/VT17WebutvMarcusHallen/assets/pages/slutuppgift">
+            <input class="linkButton" type="submit" value="<" />
+        </form>
+    </header>
+
+    <div class="border_left"></div>
+    <div class="border_right"></div>
+
+    <main class="main">
+
+        <section class="top">
+            <header>
+                <h1 class="h1_left">Solsken Kaka</h1>
+            </header>
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+            </div>
+            <div class="ratingsystem">
+                <span id="load"></span><span id="nrOfVotes"></span> <span id="medelv"></span>
+            </div>
+            <figure>
+                <img class="img_left" src="https://ensmakavkarin.files.wordpress.com/2013/03/solskenskaka2.jpg" alt="Image not found">
+                <figcaption>
+                    En kaka som går fort att göra och väldigt gott.
+                    <br>
+                </figcaption>
+            </figure>
+        </section>
+
+        <section class="content_left">
+            <h2>Ingredienser</h2>
+            <label>
+                PORTIONER:
+            </label>
+            <input readonly type="text" id="textInput" value="24">
+            <input type="range" id="piecesOfCake" value="24" min="24" max="96" step="24" oninput="updateTextInput(this.value);">
+            
+            
+            <h3>Kaka</h3>
+            <ul>
+                <li>3 ägg</li>
+                <li>4.5 dl strösocker</li>
+                <li>3 tsk bakpulver</li>
+                <li>4.5 dl vetemjöl</li>
+                <li>2.5 dl ljummet vatten</li>
+            </ul>
+            
+            <h3>Glasyr</h3>
+            <ul>
+                <li>200 gram smör</li>
+                <li>2 dl socker</li>
+                <li>3 msk vaniljsocker</li>
+                <li>2 äggulor
+                </li>
+                <li>1 dl kokos</li>
+                <li>Kokos till garnering</li>
+            </ul>
+        </section>
+
+        <section class="content_right">
+            <header>
+                <h1>Gör så här</h1>
+            </header>
+
+            <p>
+                Sätt ugnen på 175 grader. Smörj och bröa en långpanna. Vispa ägg och socker riktigt vitt och pösigt. Blanda vetemjöl och bakpulver i en annan bunke. Rör ner det i äggsmeten varvat med vattnet. Börja och sluta med mjölblandningen. Häll i långpannan och grädda i nedre delen av ugnen i ca 15-17 minuter. Ta ut och låt svalna.
+            </p>
+            <p>
+                Gör under tiden glasyren. Dela på äggen och lägg gulorna i ett glas och vispa upp lite lätt med en gaffel. Lägg smöret i en kastrull och smält på medel värme. Lägg i sockret och vaniljsockret och låt det koka ihop tills sockret har smält. Häll försiktigt i äggulorna under vispning och låt det koka ihop i någon minut. Ta av från plattan och blanda i kokosen. Häll glasyren över kakan och bred ut jämt. Strö på rikligt med kokos och dela kakan i bitar.
+            </p>
+        </section>
+    </main>
+
+    <footer class="footer">
+    </footer>
+
+    <script src="../script/rating.js"></script>
+    <script src="../script/recept.js"></script>
+</body>
+
+</html>

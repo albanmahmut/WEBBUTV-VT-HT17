@@ -1,0 +1,90 @@
+/** General stuff **/
+body{
+	background-color: darkblue;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+/** The calculator **/
+.calc{
+	border-color: white;
+	border-width: 3px;
+	border-style: solid;
+	display: inline-block;
+	padding: 50px;
+	background-color: skyblue;
+    margin-left: 50px;
+}
+
+.calc__display{
+	background-color: light khaki;
+	width: 50px;
+	padding: 10px;
+	display: block;
+	margin-bottom: 5px;
+	overflow: auto;
+
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 5px;
+
+	user-select: auto;
+	cursor: auto;
+}
+
+.calc__number{
+	display: inline-block;
+	background-color: #cccccc;
+	width: 20px;
+	padding: 10px;
+
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+.calc__sign{
+	display: inline-block;
+	background-color: lightblue;
+	width: 20px;
+	padding: 10px;
+	margin: 1px;
+	margin-top: 5px;
+}
+
+.calc{
+	user-select: none;
+	cursor: pointer;
+}
+
+.calc__sign:hover, .calc__number:hover{
+	background-color: lightyellow;
+}
+
+.calc__sign:active, .calc__number:active{
+	transform: translateY(3px);
+}
+
+/** All results **/
+.resultBlock__list{
+	list-style: none;
+}
+
+.resultBlock{
+	display: block;
+	position: absolute;
+	background-color: lightyellow;
+	width: 500px;
+	height: 500px;
+	overflow: auto;
+	left: 35%;
+	top: 10%;
+}
+
+.resultBlock__title{
+	margin-left: 10px;
+}

@@ -1,0 +1,9 @@
+*{
+	font-size: 1.1em;
+    background-color: khaki;
+    margin-left: auto;
+}
+
+.validation__input{
+	margin: 30px;
+}
